@@ -9,7 +9,7 @@ from sqlalchemy.orm import DeclarativeBase
 
 from config import settings
 
-engine: AsyncEngine = create_async_engine(settings.DB_URL, echo=False, future=True)
+engine: AsyncEngine = create_async_engine(settings.DB_URL, echo=True, future=True)
 
 
 AsyncSessionLocal = async_sessionmaker(
