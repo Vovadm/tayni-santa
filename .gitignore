@@ -1,0 +1,7 @@
+**/__pycache__/
+.venv/
+.cache/
+.local
+pip_cache/
+.env
+.vscode
